@@ -10,7 +10,7 @@ library(DT)
 ui <- fluidPage(
   
   titlePanel('Baby Names Explorer'),
-  
+  theme = shinythemes::shinytheme('paper'),
   sidebarLayout(
     
     sidebarPanel(
