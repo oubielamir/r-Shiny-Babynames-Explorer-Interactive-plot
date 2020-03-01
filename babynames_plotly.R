@@ -21,9 +21,9 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         
-        tabPanel(plotlyOutput('plot_names')),
+        tabPanel('Plot', plotlyOutput('plot_names')),
         
-        tabPanel(DTOutput('table_names'))
+        tabPanel('Table', DTOutput('table_names'))
         
       )
       
